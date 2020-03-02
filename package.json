@@ -6,7 +6,6 @@
   "author": "Jan Tumanov <external.jan.tumanov@kuehne-nagel.com>",
   "license": "MIT",
   "scripts": {
-    "prestart": "workbox generateSW",
     "start": "parcel ./src/index.html",
     "build": "parcel --experimental-scope-hoisting ./src/index.html",
     "postbuild": "workbox generateSW"
